@@ -19,8 +19,8 @@ You can view the live version of my portfolio website here: [Live Demo](https://
 ## 📷 Screenshots
 <div align="center"> 
 
-  <img src="[https://github.com/user-attachments/assets/01c88e07-db67-4a56-aeef-aa122ad2e10a](https://github.com/user-attachments/assets/c3b12bc2-af57-4270-ae63-a83adee53920)" width="400px" />
-  <img src="[https://github.com/user-attachments/assets/5b062c73-497f-47c6-9e1e-a9e0055e6f0e](https://github.com/user-attachments/assets/47a25e4f-ea26-4daf-a3c4-1d51e4916214)" width="300px" />
-  <img src="[https://github.com/user-attachments/assets/3e2cab4d-6348-4d5e-8d95-c6236110f4a4](https://github.com/user-attachments/assets/c3b12bc2-af57-4270-ae63-a83adee53920)" width="200px" />
+  <img src="https://github.com/kan15hka/PortfolioNext/blob/main/designs/Desktop%20(1200px).png" width="400px" />
+  <img src="" width="300px" />
+  <img src="" width="200px" />
   
 </div>
