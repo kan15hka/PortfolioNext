@@ -150,7 +150,7 @@ export const HeroSection = () => {
             className="inline-flex items-center rounded-xl text-gray-900 gap-2 border border-white bg-white px-6 h-12 focus:outline-none hover:bg-gray-100 transition-colors relative z-20"
           >
             <div>👋</div>
-            <span className="font-semibold">Let's Connect</span>
+            <span className="font-semibold">Let&apos;s Connect</span>
           </button>
         </div>
       </div>
