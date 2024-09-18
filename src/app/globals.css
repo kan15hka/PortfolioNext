@@ -15,4 +15,9 @@
   .container {
     @apply lg:max-w-5xl;
   }
+  .text-outline {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.63);
+  }
 }

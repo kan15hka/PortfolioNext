@@ -1,3 +1,4 @@
+import { nextui } from "@nextui-org/theme";
 import { transform } from "next/dist/build/swc";
 import type { Config } from "tailwindcss";
 
@@ -7,6 +8,9 @@ const config: Config = {
     "./src/sections/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./node_modules/@nextui-org/theme/dist/components/progress.js",
+    "./node_modules/@nextui-org/theme/dist/components/card.js",
+    "./node_modules/@nextui-org/theme/dist/components/chip.js",
   ],
   theme: {
     screens: {
@@ -57,6 +61,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [nextui()],
 };
 export default config;

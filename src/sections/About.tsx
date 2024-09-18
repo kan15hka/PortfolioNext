@@ -2,24 +2,27 @@
 import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
 import Image from "next/image";
-import bookImage from "@/assets/images/book-cover.png";
+import profileImage from "@/assets/images/me.webp";
+import nameImage from "@/assets/images/name.png";
 import JavaScriptIcon from "@/assets/icons/square-js.svg";
 import HTML5Icon from "@/assets/icons/html5.svg";
 import CSS3Icon from "@/assets/icons/css3.svg";
 import ReactIcon from "@/assets/icons/react.svg";
-import ChromeIcon from "@/assets/icons/chrome.svg";
+import NextIcon from "@/assets/icons/next.svg";
+import FlutterIcon from "@/assets/icons/flutter.svg";
 import GithubIcon from "@/assets/icons/github.svg";
-import mapImage from "@/assets/images/map.png";
+import LinkedinIcon from "@/assets/icons/linkedin.svg";
+import InstagraIcon from "@/assets/icons/instagram.svg";
+import KotlinIcon from "@/assets/icons/kotlin.svg";
+import mapImage from "@/assets/images/map.jpg";
 import smileMemoji from "@/assets/images/memoji-smile.png";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
 import { motion } from "framer-motion";
 import { useRef } from "react";
+import { LeetCodeData } from "@/components/LeetCodeData";
+import { SocialsBox } from "@/components/SocialsBox";
 const toolBoxItems = [
-  {
-    title: "JavaScript",
-    iconType: JavaScriptIcon,
-  },
   {
     title: "HTML5",
     iconType: HTML5Icon,
@@ -29,13 +32,26 @@ const toolBoxItems = [
     iconType: CSS3Icon,
   },
   {
+    title: "JavaScript",
+    iconType: JavaScriptIcon,
+  },
+  {
     title: "React",
     iconType: ReactIcon,
   },
   {
-    title: "Chrome",
-    iconType: ChromeIcon,
+    title: "React Native",
+    iconType: ReactIcon,
   },
+  {
+    title: "Flutter",
+    iconType: FlutterIcon,
+  },
+  {
+    title: "Kotlin",
+    iconType: KotlinIcon,
+  },
+
   {
     title: "Github",
     iconType: GithubIcon,
@@ -100,11 +116,22 @@ export const AboutSection = () => {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3 ">
             <Card className="h-[320px] md:col-span-2 lg:col-span-1">
               <CardHeader
-                title="My Reads"
-                description="Explore the books shaping my perspectives."
+                title="Myself"
+                description="Just a chill, curious guy from around the corner."
               />
-              <div className="mt-2 md:mt-0 w-40 mx-auto">
-                <Image src={bookImage} alt="Book Cover" />
+              <div className=" flex justify-center items-center relative z-0">
+                {/* <div className="absolute -z-10 text-4xl font-serif text-white/75  text-center w-full ">
+                  KANISHKA
+                </div>
+                <div className="absolute z-10 text-4xl font-serif text-outline text-white/75   text-center w-full ">
+                  KANISHKA
+                </div> */}
+                <div className="absolute -z-10 invert opacity-50 ">
+                  <Image src={nameImage} alt="Name Cover" />
+                </div>
+                <div className="mt-2 md:mt-0 w-40 mx-auto">
+                  <Image src={profileImage} alt="Profile Cover" />
+                </div>
               </div>
             </Card>
             <Card className="h-[320px] md:col-span-3 lg:col-span-2">
@@ -167,6 +194,21 @@ export const AboutSection = () => {
                   alt="Smile Memoji"
                 />
               </div>
+            </Card>
+          </div>
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-5 lg:grid-cols-3 ">
+            <Card className="h-[320px] md:col-span-2 lg:col-span-1">
+              <CardHeader title="Socials" description="Get in touch with me." />
+              <SocialsBox />
+            </Card>
+            <Card className="h-[320px] md:col-span-3 lg:col-span-2">
+              <CardHeader
+                className=""
+                title="My Leetcode"
+                description="Overview of my LeetCode performance."
+              />
+
+              <LeetCodeData />
             </Card>
           </div>
         </div>

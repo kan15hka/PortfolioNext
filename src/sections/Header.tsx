@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import { twMerge } from "tailwind-merge";
 const navItems = [
   { title: "Home", href: "#home" },
-  { title: "Projects", href: "#projects" },
   { title: "About", href: "#about" },
+  { title: "Projects", href: "#projects" },
   { title: "Contact", href: "#contact" },
 ];
 export const Header = () => {
