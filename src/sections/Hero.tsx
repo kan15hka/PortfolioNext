@@ -1,8 +1,8 @@
 "use client";
 import Image from "next/image";
-import memojiImage from "@/assets/images/memoji-computer.png";
+import memojiImage from "@/assets/images/memoji-computer.webp";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
-import grainImage from "@/assets/images/grain.jpg";
+import grainImage from "@/assets/images/grain.webp";
 import StarIcon from "@/assets/icons/star.svg";
 import SparkleIcon from "@/assets/icons/sparkle.svg";
 import { HeroOrbit } from "@/components/HeroOrbit";

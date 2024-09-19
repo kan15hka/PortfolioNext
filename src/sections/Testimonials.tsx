@@ -1,10 +1,10 @@
-import memojiAvatar1 from "@/assets/images/memoji-avatar-1.png";
-import memojiAvatar2 from "@/assets/images/memoji-avatar-2.png";
-import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
-import memojiAvatar4 from "@/assets/images/memoji-avatar-4.png";
-import memojiAvatar5 from "@/assets/images/memoji-avatar-5.png";
+import memojiAvatar1 from "@/assets/images/memoji-avatar-1.webp";
+import memojiAvatar2 from "@/assets/images/memoji-avatar-2.webp";
+import memojiAvatar3 from "@/assets/images/memoji-avatar-3.webp";
+import memojiAvatar4 from "@/assets/images/memoji-avatar-4.webp";
+import memojiAvatar5 from "@/assets/images/memoji-avatar-5.webp";
 import { SectionHeader } from "@/components/SectionHeader";
-import grainImage from "@/assets/images/grain.jpg";
+import grainImage from "@/assets/images/grain.webp";
 import Image from "next/image";
 import { Card } from "@/components/Card";
 import { Fragment } from "react";

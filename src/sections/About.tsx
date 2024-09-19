@@ -3,7 +3,7 @@ import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
 import Image from "next/image";
 import profileImage from "@/assets/images/me.webp";
-import nameImage from "@/assets/images/name.png";
+import nameImage from "@/assets/images/name.webp";
 import JavaScriptIcon from "@/assets/icons/square-js.svg";
 import HTML5Icon from "@/assets/icons/html5.svg";
 import CSS3Icon from "@/assets/icons/css3.svg";
@@ -14,8 +14,8 @@ import GithubIcon from "@/assets/icons/github.svg";
 import LinkedinIcon from "@/assets/icons/linkedin.svg";
 import InstagraIcon from "@/assets/icons/instagram.svg";
 import KotlinIcon from "@/assets/icons/kotlin.svg";
-import mapImage from "@/assets/images/map.jpg";
-import smileMemoji from "@/assets/images/memoji-smile.png";
+import mapImage from "@/assets/images/map.webp";
+import smileMemoji from "@/assets/images/memoji-smile.webp";
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
 import { motion } from "framer-motion";
@@ -47,10 +47,10 @@ const toolBoxItems = [
     title: "Flutter",
     iconType: FlutterIcon,
   },
-  {
-    title: "Kotlin",
-    iconType: KotlinIcon,
-  },
+  // {
+  //   title: "Kotlin",
+  //   iconType: KotlinIcon,
+  // },
 
   {
     title: "Github",
@@ -129,7 +129,7 @@ export const AboutSection = () => {
                 <div className="absolute -z-10 invert opacity-50 ">
                   <Image src={nameImage} alt="Name Cover" />
                 </div>
-                <div className="mt-2 md:mt-0 w-40 mx-auto">
+                <div className="w-40 md:w-30 mx-auto">
                   <Image src={profileImage} alt="Profile Cover" />
                 </div>
               </div>

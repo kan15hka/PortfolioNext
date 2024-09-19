@@ -1,10 +1,10 @@
-import project1 from "@/assets/images/ceginduc.png";
-import project2 from "@/assets/images/pound.jpg";
-import project3 from "@/assets/images/tstore.jpg";
+import project1 from "@/assets/images/ceginduc.webp";
+import project2 from "@/assets/images/pound.webp";
+import project3 from "@/assets/images/tstore.webp";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
-import grainImage from "@/assets/images/grain.jpg";
+import grainImage from "@/assets/images/grain.webp";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 const portfolioProjects = [

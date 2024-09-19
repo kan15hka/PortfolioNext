@@ -1,6 +1,6 @@
 "use client";
 import ArrowRightUpIcon from "@/assets/icons/arrow-up-right.svg";
-import grainImage from "@/assets/images/grain.jpg";
+import grainImage from "@/assets/images/grain.webp";
 
 export const ContactSection = () => {
   const onConactMeClicked = () => {
